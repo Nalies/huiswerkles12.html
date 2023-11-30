@@ -1,0 +1,88 @@
+/* Stijl voor de tabel */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+/* Stijlen voor header en footer */
+header {
+    background-color: #ff00ff;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #6600ff;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
+/* Stijlen voor de cel-ID's */
+#cel1 { background-color: #ffffcc; }
+#cel2 { background-color: #ffccff; }
+#cel3 { background-color: #ff99ff; }
+#cel4 { background-color: #ff66ff; }
+#cel5 { background-color: #ccffff; }
+#cel6 { background-color: #ccccff; }
+#cel7 { background-color: #cc99ff; }
+#cel8 { background-color: #cc66ff; }
+#cel9 { background-color: #99ffff; }
+#cel10 { background-color: #99ccff; }
+#cel11 { background-color: #9999ff; }
+#cel12 { background-color: #9966ff; }
+#cel13 { background-color: #66ffff; }
+#cel14 { background-color: #66ccff; }
+#cel15 { background-color: #6699ff; }
+#cel16 { background-color: #6666ff; }
+
+
+/* Stijlen voor de woorden in kolom 1 en 3*/
+.Januari {
+    background-color: #33ffff;
+}
+
+.Februari {
+    background-color: #33ccff;
+}
+
+.Maart {
+    background-color: #3399ff;
+}
+
+.April {
+    background-color: #3366ff;
+}
+
+.Mei {
+    background-color: #00ffff;
+}
+
+.Juni {
+    background-color: #00ccff;
+}
+
+.Juli {
+    background-color: #0099ff;
+}
+
+.Augustus {
+    background-color: #0066ff;
+}
+
+
+
